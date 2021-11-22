@@ -1,13 +1,10 @@
 package com.example.basicsyntax
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.util.Log
 
-class ControlFlowActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_control_flow)
+class ControlFlow {
+
+    init {
 
         // if 절
         var ball = 4
@@ -72,7 +69,6 @@ class ControlFlowActivity : AppCompatActivity() {
                 Log.d("when", "5시 이전")
             }
         }
-
 
     }
 }

@@ -1,14 +1,10 @@
 package com.example.basicsyntax
 
-import androidx.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.util.Log
 
-class ArrayActivity : AppCompatActivity() {
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_array)
+class Array() {
 
+    init {
         //배열 할당
         var numArray = IntArray(10)
         // IntArray LongArray CharArray FloatArray DoubleArray
