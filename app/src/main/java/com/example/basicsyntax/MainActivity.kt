@@ -35,8 +35,22 @@ class MainActivity : AppCompatActivity() {
 //        binding.tvName.text = "For_While"
 
         //함수
-        var function = Function()
-        binding.tvName.text="Function"
+//        var function = Function()
+//        binding.tvName.text="Function"
+
+        //Null 처리
+//        var nullclass=NullClass()
+//        binding.tvName.text="NULL"
+
+        //lateinit
+//        var lateinit = lateInit()
+//        binding.tvName.text = "lateinit"
+
+        //scope
+        var scope = ScopeFun()
+        binding.tvName.text = "scopefun"
+
+
 
     }
 }
