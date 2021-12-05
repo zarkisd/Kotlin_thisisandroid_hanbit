@@ -1,8 +1,10 @@
 package com.example.basicsyntax
 
 import android.annotation.SuppressLint
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.Permission.Permission
 import com.example.basicsyntax.databinding.ActivityMainBinding
 
 
@@ -49,6 +51,13 @@ class MainActivity : AppCompatActivity() {
         //scope
         var scope = ScopeFun()
         binding.tvName.text = "scopefun"
+
+
+        val intent = Intent(this, Permission::class.java)
+
+        startActivity(intent)
+        finish()
+
 
 
 
